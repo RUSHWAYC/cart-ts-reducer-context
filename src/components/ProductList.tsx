@@ -1,4 +1,6 @@
-import React from "react";
+import useCart from "../hooks/useCart";
+import useProducts from "../hooks/useProducts";
+import { UseProductsContextType } from "../context/ProductsProvider";
 
 const ProductList = () => {
   return (
